@@ -103,16 +103,26 @@ ruff check .
 
 ```text
 vectrix/
+├── src/
+│   └── vectrix/
+│       ├── __init__.py
+│       ├── cli.py
+│       └── core/
+│           ├── __init__.py
+│           ├── config.py
+│           ├── logger.py
+│           ├── events.py
+│           └── event_store.py
+├── tests/
+│   ├── test_cli.py
+│   ├── test_config.py
+│   ├── test_logger.py
+│   ├── test_events.py
+│   └── test_event_store.py
 ├── docs/
 │   └── architecture/
 ├── examples/
 ├── scripts/
-├── src/
-│   └── vectrix/
-│       ├── __init__.py
-│       └── cli.py
-├── tests/
-│   └── test_cli.py
 ├── .gitignore
 ├── pyproject.toml
 └── README.md
