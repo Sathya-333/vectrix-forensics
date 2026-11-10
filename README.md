@@ -109,6 +109,8 @@ vectrix/
 │       ├── cli.py
 │       └── core/
 │           ├── __init__.py
+│           ├── build.py
+│           ├── repository.py
 │           ├── config.py
 │           ├── logger.py
 │           ├── events.py
@@ -118,7 +120,9 @@ vectrix/
 │   ├── test_config.py
 │   ├── test_logger.py
 │   ├── test_events.py
-│   └── test_event_store.py
+│   ├── test_event_store.py
+│   ├── test_build.py
+│   └── test_repository.py
 ├── docs/
 │   └── architecture/
 ├── examples/
